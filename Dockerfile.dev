@@ -1,0 +1,29 @@
+FROM python:3.9-slim
+
+# Update repositories
+RUN apt-get update
+
+# Install dependencies
+RUN apt-get install -y tesseract-ocr tesseract-ocr-nld libgl1
+
+# Copy requirements
+COPY requirements/app.txt /opt/service/requirements/app.txt
+
+# Copy source code
+COPY src /opt/service/src
+
+# Install requirements
+RUN pip install -r /opt/service/requirements/app.txt
+
+# Set python path
+ENV PYTHONPATH=/opt/service/src
+
+# Set working directory
+WORKDIR /opt/service
+
+# Run server
+ENV FLASK_ENV=development
+ENV FLASK_APP=/opt/service/src/scanner/__main__.py
+
+ENTRYPOINT ["flask", "run"]
+CMD ["--host", "0.0.0.0", "--port", "8080"]
