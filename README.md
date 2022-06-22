@@ -40,8 +40,6 @@ Run ```make init``` to install the requirements for the service on your local ma
 
 [Dockerfile Docs](https://docs.docker.com/engine/reference/builder/)
 
-[Docker Compose Docs](https://docs.docker.com/compose/)
-
 [Receipt OCR Part 1](https://www.kaggle.com/code/dmitryyemelyanov/receipt-ocr-part-1-image-segmentation-by-opencv/notebook)
 
 [Receipt OCR Part 2](https://www.kaggle.com/code/dmitryyemelyanov/receipt-ocr-part-2-text-recognition-by-tesseract/notebook)
