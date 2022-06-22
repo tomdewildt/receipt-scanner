@@ -1,0 +1,16 @@
+[typecheck]
+ignored-modules=skimage.filters
+
+[messages control]
+disable=too-many-instance-attributes,
+        too-few-public-methods,
+        too-many-arguments,
+        missing-docstring,
+        invalid-name,
+        no-self-use,
+        no-member,
+        fixme,
+
+[report]
+exclude_lines =
+    if __name__ == .__main__.:
