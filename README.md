@@ -1,5 +1,5 @@
 # Receipt Scanner
-[![Build](https://img.shields.io/github/workflow/status/tomdewildt/receipt-scanner/ci/master)](https://github.com/tomdewildt/receipt-scanner/actions?query=workflow%3Aci)
+[![Build](https://img.shields.io/github/actions/workflow/status/tomdewildt/receipt-scanner/ci.yml?branch=master)](https://github.com/tomdewildt/receipt-scanner/actions/workflows/ci.yml)
 [![License](https://img.shields.io/github/license/tomdewildt/receipt-scanner)](https://github.com/tomdewildt/receipt-scanner/blob/master/LICENSE)
 
 Simple API to convert a picture of a receipt to a structured response using [Pytesseract](https://github.com/madmaze/pytesseract).
