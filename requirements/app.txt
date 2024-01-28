@@ -1,5 +1,5 @@
 Flask==2.3.2
-gunicorn==20.1.0
+gunicorn==21.2.0
 numpy==1.24.3
 opencv-python==4.9.0.80
 pytesseract==0.3.10
