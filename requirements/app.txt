@@ -1,6 +1,6 @@
 Flask==2.3.2
 gunicorn==20.1.0
-numpy==1.24.3
+numpy==1.26.3
 opencv-python==4.7.0.72
 pytesseract==0.3.10
 scikit-image==0.20.0
