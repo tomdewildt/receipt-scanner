@@ -17,7 +17,7 @@ jobs:
       - name: Setup os
         run: sudo apt-get install tesseract-ocr tesseract-ocr-nld libgl1 -y
       - name: Setup python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
           python-version: 3.8
       - name: Setup pip
