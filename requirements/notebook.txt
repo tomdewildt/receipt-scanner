@@ -1,2 +1,2 @@
-jupyterlab==4.0.12
+jupyterlab==4.2.2
 matplotlib==3.7.1
