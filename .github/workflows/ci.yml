@@ -13,7 +13,7 @@ jobs:
       PYTHONPATH: "src:test"
     steps:
       - name: Checkout code
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
       - name: Setup os
         run: sudo apt-get install tesseract-ocr tesseract-ocr-nld libgl1 -y
       - name: Setup python
